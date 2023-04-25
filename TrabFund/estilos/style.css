@@ -1,0 +1,239 @@
+.divCabecalho{
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: rgb(255, 138, 138);
+    height: 80px;
+    z-index: 1000;
+}
+
+.logoFia{
+    position: fixed;
+    left: 10px;
+}
+
+.tituloCabecalho{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logoF1{
+    position: fixed;
+    right: 10px;
+}
+
+.divTabelaPilotos{
+    position: relative;
+    top: 100px;
+    z-index: 999;
+    margin-bottom: 200px;
+}
+
+.tablePilotos{
+    width: auto;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.tablePosicao{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tablePiloto{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tableImagemPiloto{
+    text-align: center;
+}
+
+.trTitulo{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tablePontuacao{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tableBandeira{
+    text-align: center;
+}
+
+.divRodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: rgb(255, 138, 138);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTabelaClassificacoes{
+    position: relative;
+    top: 100px;
+    z-index: 999;
+    margin-bottom: 200px;
+}
+
+.divtableClassificacoes{
+    position: relative;
+    top: 100px;
+    z-index: 999;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableEtapa1{
+    width: auto;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+.tableEtapa2{
+    width: auto;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+.tableEtapa3{
+    width: auto;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+.buttonIndex{
+    width: auto;
+    margin: 0 10px;
+}
+
+.buttonClassificacao{
+    width: auto;
+    margin: 0 10px;
+}
+
+.buttonClassificacaoEquipes{
+    width: auto;
+    margin: 0 10px;   
+}
+
+.buttonClassificacaoEquipesEtapas{
+    width: auto;
+    margin: 0 10px; 
+}
+
+.buttonPontuacao{
+    width: auto;
+    margin: 0 10px; 
+}
+
+.tableEquipes{
+    width: auto;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.divTabelaEquipes{
+    position: relative;
+    top: 100px;
+    z-index: 999;
+    margin-bottom: 200px;
+}
+
+.tableImagemEquipe{
+    text-align: center;
+}
+
+.tableEquipe{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.divTabelaEquipesEtapas{
+    position: relative;
+    top: 100px;
+    z-index: 999;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableEquipesEtapa1{
+    width: auto;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+.tableEquipesEtapa2{
+    width: auto;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+.tableEquipesEtapa3{
+    width: auto;
+    margin: 0 20px;
+    border-radius: 3px;
+}
+
+.divTabelaPontuacao{
+    position: relative;
+    top: 100px;
+    z-index: 999;
+    margin-bottom: 200px;
+}
+
+.tablePontuacaoFinal{
+    width: auto;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+a{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.buttonInformacoes{
+    width: auto;
+    margin: 0 10px; 
+}
+
+.divTabelaInformacoes{
+    position: relative;
+    top: 100px;
+    z-index: 999;
+    margin-bottom: 200px;
+}
+
+.tabelaInformacoes{
+    width: auto;
+    margin: 0 auto;
+    border-radius: 3px;
+}
